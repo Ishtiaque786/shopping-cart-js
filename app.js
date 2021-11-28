@@ -24,3 +24,12 @@ document
     numberField1219Int = parseInt(numberField1219.value);
     numberField1219.value = parseInt(numberField1219Int + 1);
   });
+
+// decrease counter for $1219
+document
+  .getElementById("number-decrease-1219")
+  .addEventListener("click", function () {
+    const numberField1219 = document.getElementById("number-Field-1219");
+    numberField1219Int = parseInt(numberField1219.value);
+    numberField1219.value = parseInt(numberField1219Int - 1);
+  });
